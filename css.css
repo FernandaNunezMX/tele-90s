@@ -1,0 +1,88 @@
+
+
+body{
+    display: flex;
+    background-color: rgb(227, 153, 231);   
+}
+
+.antennas{
+    margin-top: 10px;
+    position: absolute;
+    left: 425px;
+}
+
+#antenna1, #antenna2{
+    float: left;
+    cursor:pointer;
+}
+
+
+
+.tv{
+    position: absolute;
+    top: 105px;
+    left: 75px; 
+    width: 788px;
+    height: 720px;
+    background-image: url("../tele\ 90s/assets/teleJVC.png");
+    z-index: 3;
+}
+
+#screenOff{
+    position:absolute;
+    top: 124px;
+    left:148px;
+    z-index: 2;
+}
+
+#screenGlitch{
+    position:absolute;
+    top: 124px;
+    left:148px;
+    z-index: 1;
+    opacity: 80%;
+    display: none;
+  
+}
+
+#player {
+    position: absolute;
+    top: 124px;
+    left:148px;
+    height: 610px;
+    width: 650px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    z-index: 0; 
+}
+
+#prevButton{
+    background-color: transparent;
+    border-color:transparent;
+    position: absolute;
+    top: 725px;
+    left: 457px;
+    z-index: 4;
+    cursor: pointer;
+}
+
+#nextButton{
+    background-color: transparent;
+    border-color:transparent;
+    position: absolute;
+    top: 725px;
+    left: 504px;
+    z-index: 4;
+    cursor: pointer;
+}
+
+#powerButton{
+    background-color: transparent;
+    border-color:transparent;
+    position: absolute;
+    top: 725px;
+    left: 567px;
+    z-index: 4;
+    cursor: pointer;
+}
+
